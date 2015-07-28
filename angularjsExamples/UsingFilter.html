@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+	<title>Using AngularJS Directives and Data Binding</title>
+</head>
+<body ng-init="bandadudes=[{name:'Miggy',position:'vocalist'},{name:'Lee',position:'bassist'},{name:'Kenneth Wayne',position:'lead guitarist'},{name:'Teddy',position:'vocalist'}]">
+	Name:
+	<br />
+	<input type="text" ng-model="name"/>
+	<ul>
+		<li ng-repeat="bands in bandadudes | filter:name | orderBy:position">{{ bands.name | uppercase }} - {{ bands.position | lowercase }}</li>
+	</ul>
+
+	<script src="angular.min.js"></script>
+	</body>
+</html>

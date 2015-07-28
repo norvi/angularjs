@@ -1,0 +1,11 @@
+<div class="container">
+	<h2>View 1 </h2>
+	Name:
+	<br />
+	<input type="Text" ng-model="name" />
+	<br />
+	<ul>
+		<li ng-repeat="bands in bandadudes | filter:name | orderBy:position">
+	</li>
+	</ul>
+</div>

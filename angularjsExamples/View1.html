@@ -1,0 +1,20 @@
+<div class="container">
+	<h2>View 1 </h2>
+	Name:
+	<br />
+	<input type="Text" ng-model="filter.name" />
+	<br />
+	<ul>
+		<li ng-repeat="bands in bandadudes | filter:filter:name | orderBy:position">
+	</li>
+	</ul>
+	<br />
+	Bandadudes Name:
+	<input type="text" ng-model="newBandadudes.name" />
+
+	Bandadudes Position:
+	<input type="text" ng-model="newPosition.position" />
+	<br />
+	<button ng-click="addBandadudes()"> Add Bandadudes </button>
+	
+</div>

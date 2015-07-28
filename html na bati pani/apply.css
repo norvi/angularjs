@@ -1,0 +1,83 @@
+#header{
+	background-color: black;
+	color:white;
+	height: 80px;
+	width: 1330px;
+	text-align: center;
+	padding:5px;
+}
+#nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; 
+  }
+  
+    nav > ul > li > a {
+  color: white;
+  display: block;
+  line-height: 56px;
+  padding: 0 24px;
+  text-decoration: none;
+  background-color: grey;
+  border-radius: 5px;
+  height: 40px;
+
+}
+a:hover {
+  
+  
+  background-color: red;
+
+}
+
+#body{
+  background-image:url("../images/paste.jpg");
+	background-attachment: fixed;
+	background-size: 1500px 730px;
+}
+
+#section1 {
+  background-color: grey;
+  color: white;
+  height: 500px;
+  width: 1330px;
+  font-size: 30px;
+  text-align: center;
+  font-style: Comic;
+  padding: 3px;
+  margin-top: 7px;
+  border-radius: 30px;
+}
+#nav1 {
+  background-color: black;
+  font-color: white;
+  height: 40px;
+  width: 500px;
+  font-size: 25;
+  text-align: center;
+  font-style: Comic;
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-left: 400px;
+}
+a{
+  color: white;
+}
+a:hover {
+  
+  
+  background-color: red;
+
+}
+}

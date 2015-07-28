@@ -1,0 +1,38 @@
+#header1 {
+  color: white;
+  background-color: black;
+  height: 80px;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+#section {
+  color: black;
+  height: 500px;
+  background-color: grey;
+  font-size: 23px;
+  margin-top: 8px;
+  padding-top: 50px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+#nav {
+  color: white;
+  height: 35px;
+  background-color: black;
+  width: 150;
+  text-align: center;
+  margin-top: 20;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+a{
+  color: white;
+}
+a:hover {
+  
+  
+  background-color: red;
+
+}
+}
